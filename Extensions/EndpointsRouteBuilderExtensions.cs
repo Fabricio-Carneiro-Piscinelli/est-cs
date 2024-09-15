@@ -20,6 +20,9 @@ public static class EndpointsRouteBuilderExtensions {
         var rangosComIngredientes = endpointRouteBuilder.MapGroup("/rangos/{rangoId:int}/ingredientes");
 
         rangosComIngredientes.MapGet("", IngredientesHandlers.GetIngredientes);
+        rangosComIngredientes.MapPost("", () => {
+            throw new NotImplementedException();
+        });
 
     }
 }
