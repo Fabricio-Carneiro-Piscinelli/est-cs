@@ -1589,6 +1589,19 @@
           }
         }
       },
+      "MiniValidation/0.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MiniValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -5237,6 +5250,22 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "MiniValidation/0.9.1": {
+      "sha512": "KUqRU2g2LN8OqUBw3DwQun8nFqWqdc6OTcThCXiBv22oCL18PAv4v47jDn7+aS5CVvf4OmgGPzOg+o/kGzP2sQ==",
+      "type": "package",
+      "path": "minivalidation/0.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/MiniValidation.dll",
+        "lib/net6.0/MiniValidation.xml",
+        "lib/netstandard2.0/MiniValidation.dll",
+        "lib/netstandard2.0/MiniValidation.xml",
+        "minivalidation.0.9.1.nupkg.sha512",
+        "minivalidation.nuspec"
       ]
     },
     "Mono.TextTemplating/2.2.1": {
@@ -9363,7 +9392,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
+      "MiniValidation >= 0.9.1"
     ]
   },
   "packageFolders": {
@@ -9431,6 +9461,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[8.0.8, )"
+          },
+          "MiniValidation": {
+            "target": "Package",
+            "version": "[0.9.1, )"
           }
         },
         "imports": [

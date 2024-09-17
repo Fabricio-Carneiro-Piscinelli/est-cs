@@ -66,7 +66,6 @@ public static class RangosHandlers {
     
     public static async Task<Results<NoContent, Ok>> DeleteRangos (
         RangoDbContext rangoDbContext,
-        IMapper mapper,
         int rangoId
     ) {
         var rangos = await rangoDbContext.Rangos.FirstOrDefaultAsync(item => item.Id == rangoId);

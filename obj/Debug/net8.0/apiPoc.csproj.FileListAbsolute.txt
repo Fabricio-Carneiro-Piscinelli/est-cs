@@ -124,3 +124,4 @@
 /Users/fabricio/Documents/apiPoc/bin/Debug/net8.0/System.Security.Permissions.dll
 /Users/fabricio/Documents/apiPoc/bin/Debug/net8.0/AutoMapper.dll
 /Users/fabricio/Documents/apiPoc/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/fabricio/Documents/apiPoc/bin/Debug/net8.0/MiniValidation.dll

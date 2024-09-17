@@ -13,7 +13,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.Design": "8.0.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.8",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.8"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
+          "MiniValidation": "0.9.1"
         },
         "runtime": {
           "apiPoc.dll": {}
@@ -785,6 +786,14 @@
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "MiniValidation/0.9.1": {
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {
+            "assemblyVersion": "0.9.1.0",
+            "fileVersion": "0.9.1.0"
+          }
         }
       },
       "Mono.TextTemplating/2.2.1": {
@@ -2299,6 +2308,13 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "MiniValidation/0.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KUqRU2g2LN8OqUBw3DwQun8nFqWqdc6OTcThCXiBv22oCL18PAv4v47jDn7+aS5CVvf4OmgGPzOg+o/kGzP2sQ==",
+      "path": "minivalidation/0.9.1",
+      "hashPath": "minivalidation.0.9.1.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",

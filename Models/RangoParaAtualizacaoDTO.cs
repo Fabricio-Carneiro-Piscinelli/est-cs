@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace APIPOC.Models {
     public class RangoParaAtualizacaoDTO
     {

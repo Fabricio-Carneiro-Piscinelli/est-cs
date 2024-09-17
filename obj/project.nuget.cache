@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cnKZMx2usYU=",
+  "dgSpecHash": "VV+Hfx7yyfo=",
   "success": true,
   "projectFilePath": "/Users/fabricio/Documents/apiPoc/apiPoc.csproj",
   "expectedPackageFiles": [
@@ -88,6 +88,7 @@
     "/Users/fabricio/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/fabricio/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/fabricio/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "/Users/fabricio/.nuget/packages/minivalidation/0.9.1/minivalidation.0.9.1.nupkg.sha512",
     "/Users/fabricio/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/fabricio/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/fabricio/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
