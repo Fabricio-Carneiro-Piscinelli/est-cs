@@ -1,13 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using APIPOC.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace APIPOC.DbContexts
 {
-    public class RangoDbContext : DbContext
-    {
-        public RangoDbContext(DbContextOptions<RangoDbContext> options) : base(options)
+    public class RangoDbContext(DbContextOptions<RangoDbContext> options) : IdentityDbContext(options)
         {
-        }
 
         public DbSet<Rango> Rangos { get; set; } = null!;
         public DbSet<Ingrediente> Ingredientes { get; set; } = null!;
